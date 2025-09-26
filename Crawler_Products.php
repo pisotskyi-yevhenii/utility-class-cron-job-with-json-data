@@ -74,6 +74,7 @@ final class Crawler_Products
         }
     }
 
+    // Scan urls by admin demand (click button on admin panel of wordpress)
     public function scan_on_ajax()
     {
         if ( ! trim($this->emails)) {
